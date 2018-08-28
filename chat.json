@@ -1,0 +1,15 @@
+{"messages": 
+	[T
+        {"id":  "17",
+            "type": "BUTTON",
+			"user": "Ryan Smith",
+			"text": "This is an example of JSON",
+			
+	
+	
+        "timestamp": 545454545,
+        "sender_id": 44543543,
+        "receiver_id": 64554
+ 
+    }]
+}

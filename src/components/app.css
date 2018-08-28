@@ -1,0 +1,254 @@
+:root {
+    --main-color: #5ea3d0;
+    --secondary-color: white;
+    --main-text-color: #3e5869;
+    --secondary-text-color: #b0c7d6;
+    --send-message-form: #F5F5F5;
+}
+
+.app {
+    width:424px;
+    max-height:100%;
+    display:inline-block;
+    clear: both;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 4mm ridge rgba(22, 25, 172, 0.6);
+
+}
+
+#root {
+    height: 100%;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #fff;
+    background: #0084ff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.message{
+    margin: 15px 0;
+}
+
+
+.message div:nth-child(1) {
+    background: #0084ff;
+    color: #fff;
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.message-list {
+    box-sizing: border-box;
+    padding: 0 0 0 6px;
+    margin: 0;
+    width: 100%;
+    height: 440px;
+    max-height: 440px;
+    overflow: scroll;
+    background: white;
+    border: 4mm ridge rgba(31, 28, 184, 0.6);
+}
+
+.send-message-form {
+    background: var(--send-message-form);
+    display: flex;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.send-message-form input {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    margin: 0;
+    background: var(--send-message-form);
+    font-weight: 200;
+}
+
+.send-message-form input:focus {
+    outline-width: 0;
+}
+
+.send-message-form input::placeholder {
+    color: black;
+}
+
+
+.quick-reply {
+    background: #0084ff;
+    color: white;
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin:2px;
+}
+
+.img{
+    width: 420px; 
+    height: 300px;   
+}
+
+.message-template-wraper{
+    display: flex;
+    border-style: solid;
+    width: 18%;
+    background: var(--main-color);
+    max-width:50%;
+    max-height:50%;
+    margin: 15px 0;
+}
+
+.template-title{
+    border-style:solid; 
+}
+
+.description{
+    border-style: solid;
+}
+
+.image-item{
+    max-width:100%;
+    max-height:200px;
+    margin: 15px 0;
+}
+
+.link-item{
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    border-top:solid;
+    max-width:100%;
+    max-height:100%;
+    padding: 3px; 
+    text-align: center;  
+}
+
+.question-item{
+    max-width:100%;
+    max-height:100%;
+    padding:5px;
+    background-color: lightgrey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.generic-template-wraper{
+    display: flex;
+    border:solid;
+    border-radius: 15px;
+    flex-direction: column;
+    max-width:50%;
+    max-height:50%;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.generic-item{
+    border-top:solid;
+    max-width:100%;
+    max-height:100%;
+}
+
+.generic-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.generic-subtitle{
+    margin-top:0;
+    margin-bottom: 5px;
+}
+
+.img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.list-template-wraper{
+    display: flex;
+    border:solid;
+    flex-direction: column;
+    max-width:50%;
+    max-height:50%;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+.banner-item{
+    max-width:100%;
+    max-height:100%;
+}
+.list-item{
+    max-width:100%;
+    max-height:100%;
+}
+
+.list-img{
+    max-width:100%;
+    max-height:100%;
+}
+.media-template-wraper{
+    display: flex;
+    border:solid;
+    flex-direction: column;
+    max-width:50%;
+    max-height:50%;
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.button-template-wraper{
+    display: flex;
+    border:solid;
+    flex-direction: column;
+    max-width:50%;
+    max-height:50%;
+    margin: 15px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+
+.list-description{
+    margin-top:0;
+    margin-bottom:5px;
+}
+
+.banner-item{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.list-img{
+    margin-bottom:5px;
+}
+
+.quick-replie-wraper{
+    border:solid;
+    border-radius: 15px;
+    max-width:50%;
+    max-height:50%;
+    text-align: center;
+}
+
+.answers-section{
+    margin:5px;
+}
+
+
+
